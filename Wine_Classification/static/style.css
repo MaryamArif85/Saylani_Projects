@@ -1,0 +1,111 @@
+/* === Wine Color Palette === */
+:root {
+    --wine-dark: #6B2737;     /* dark maroon */
+    --wine-light: #A53860;    /* lighter maroon for hover */
+    --wine-accent: #722F37;   /* your predict button color */
+    --bg-light: #f5f5f5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg-light);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 800px;
+}
+
+h1 { 
+    color: var(--wine-accent); 
+    text-align: center; 
+}
+
+.subtitle { 
+    text-align: center; 
+    color: #666; 
+    margin-bottom: 20px; 
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUTS with wine border on focus */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--wine-light);
+    box-shadow: 0 0 6px rgba(165, 56, 96, 0.3);
+}
+
+/* TOP 3 BUTTONS - Load Sample, Fill Avg, Clear */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 10px;
+    background: var(--wine-dark); /* was #6c757d */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button-group button:hover { 
+    background: var(--wine-light); /* was #5a6268 */
+}
+
+/* PREDICT BUTTON */
+.predict-btn { 
+    background: var(--wine-accent) !important; 
+    width: 100%;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.predict-btn:hover { 
+    background: var(--wine-dark) !important; /* darker on hover */
+}
+
+/* Result box */
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f9e8ed; /* light wine tint instead of green */
+    border: 1px solid var(--wine-light);
+    text-align: center;
+    font-size: 18px;
+    color: var(--wine-dark);
+}
+
+.hidden { display: none; }
