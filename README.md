@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Saylani_Projects
 
 Collection of Python projects for Saylani SMIT.
@@ -22,4 +21,3 @@ A 6-class image classification project to identify types of garbage using CNN an
 
 
 
->>>>>>> ac61c35b0232cf1f654cb711e6ff81e4ccc0af30
