@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and Models - too big for github
+Garbage classification_dataset/
+images/
+models/
+*.h5
+
+
+# Logs and system files
+dtpl.error.log
+.DS_Store
+Thumbs.db
