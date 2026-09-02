@@ -56,26 +56,26 @@ A FastAPI web app that predicts wine class using RandomForest. Trained on `wine_
 pip install -r requirements.txt
 uvicorn main:app --reload
 
----
 
-###4. Garbage Classification with Deep LearningA 6-class image classification project to identify types of garbage using CNN and Transfer Learning
-.
+
+### 4. Garbage Classification with Deep LearningA 6-class image classification project to identify types of garbage using CNN and Transfer Learning
+
 ##Classes: cardboard, glass, metal, paper, plastic, trash
 
-**Results**:
+**Result**:
 ~ Best Val Accuracy: 77.53% at Epoch 7
 ~ Training Accuracy: 94.71%
 ~ Used Early Stopping to prevent overfitting
 ~ Best model saved to: models/best_garbage_model.h5
 
----
 
-###Spam Email Detection
 
-##An NLP project to classify emails as Spam or Ham using Machine Learning.
+### 5. Spam Email Detection
+
+## An NLP project to classify emails as Spam or Ham using Machine Learning.
 
 ## Model Performance at Threshold = 0.7
-#Raising the threshold to 0.7 made the model more conservative about calling something spam.
+# Raising the threshold to 0.7 made the model more conservative about calling something spam.
 
 ## Report
 At threshold 0.7, the model prioritized **precision over recall**. 
