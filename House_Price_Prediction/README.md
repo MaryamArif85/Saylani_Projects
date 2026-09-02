@@ -7,7 +7,7 @@ This project implements a full ML pipeline on a house price dataset, including d
 
 ## Files
 - `House_Price_Prediction.ipynb` - Main notebook with data cleaning, EDA, model training, and evaluation
-- `House Price Prediction Dataset.csv` - Dataset used for training and testing
+  
 
 ## Tools & Libraries
 - Python
