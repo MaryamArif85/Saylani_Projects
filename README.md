@@ -53,9 +53,10 @@ A FastAPI web app that predicts wine class using RandomForest. Trained on `wine_
 
 
 
-### 4. Garbage Classification with Deep LearningA 6-class image classification project to identify types of garbage using CNN and Transfer Learning
+### 4. [Garbage Classification with Deep Learning]
 
-##Classes: cardboard, glass, metal, paper, plastic, trash
+# A 6-class image classification project to identify types of garbage using CNN and Transfer Learning
+# Classes: cardboard, glass, metal, paper, plastic, trash
 
 **Result**:
 ~ Best Val Accuracy: 77.53% at Epoch 7
@@ -65,18 +66,25 @@ A FastAPI web app that predicts wine class using RandomForest. Trained on `wine_
 
 
 
-### 5. Spam Email Detection
+### 5. [Spam Email Detection]
 
-## An NLP project to classify emails as Spam or Ham using Machine Learning.
+# An NLP project to classify emails as Spam or Ham using Machine Learning.
 
-## Model Performance at Threshold = 0.7
+# Model Performance at Threshold = 0.7
 # Raising the threshold to 0.7 made the model more conservative about calling something spam.
 
-## Report
+# Report
 At threshold 0.7, the model prioritized **precision over recall**. 
 Precision for spam increased to 0.77, meaning fewer legitimate emails are incorrectly marked as spam. 
 Recall dropped to 0.63, so some spam emails are missed. 
 This tradeoff is suitable for email filtering, where false positives are more costly than missing some spam.
+
+
+### 6. [Loan Approval Prediction](Loan_Approval_Prediction/Loan_Approval_Prediction.ipynb)
+
+   - **Description**: Predict loan approval using Logistic Regression, Decision Tree, and Random Forest.
+   - **Best Model**: Random Forest with F1-Score: 0.9780
+   - **Key Features**: cibil_score, income_annum
 
 
 
